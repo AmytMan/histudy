@@ -1,0 +1,87 @@
+/* Header.css */
+.header_wrapper{
+  background: url(../../assets//bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.header_text{
+  font-family: var(--font-primary);
+  color: var(--color-heading);
+  font-weight: 500;
+  font-size: var(--size-subtitle);
+  white-space:nowrap ;
+}
+.header_title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 75px;
+  color: var(--color-heading);
+  margin-left: 30px;
+}
+.header_title span{
+  background-image: var(--bg-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header_animi::after{
+  content: "";
+  animation: changeheader 10s linear infinite;
+}
+.banner_image img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+@keyframes changeheader {
+  0%{
+    content:"University.";  
+  }
+  
+25% {
+  content: "High School.";
+  
+} 
+50% {
+  content: "Online Course.";
+  
+} 
+75% {
+  content: "Kindergarden.";
+   
+}
+100% {
+  content: "Like Udemy.";
+   
+  }
+}
+  .header_animi2{
+   
+    animation: updwn 2s ease-out infinite;
+  }
+  @keyframes updwn {
+    0%{
+      transform: translateY(0px);
+    }
+    
+    100%{
+      transform: translateY(-20px);
+    }
+    
+  }
+  @media screen and (max-width:1050px) {
+    .banner_image img{
+      width: 100% ;
+
+    } 
+  }
+  @media  screen and (max-width:650px) {
+    .header_title{
+      font-size: 50px;
+    }
+    
+  }
+  
+ 

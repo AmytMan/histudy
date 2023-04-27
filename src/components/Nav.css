@@ -1,0 +1,23 @@
+.navbar_container{
+   position: sticky;
+   top: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   width: 100%;
+   z-index: 1000;
+  
+}
+.navbar_container img{
+    width: 150px;
+}
+.navbar_container button{
+    background:var(--color-light-green) ;
+    border: none;
+}
+.button_color{
+    background-color: var(--color-light-green);
+    cursor: pointer;
+}
+

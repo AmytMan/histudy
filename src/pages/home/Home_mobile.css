@@ -1,0 +1,23 @@
+.histudy_show{
+    display:block;
+   
+}
+.histudy_hide{
+    display: none;
+}
+.mobile_content_wrapper:hover{
+ color: blue;
+}
+.histudy_show a:hover {
+ color: blue;
+} 
+.mobile_content_wrapper div{
+   font-size: 18px;
+   font-weight: 600;
+   font-family: var(--font-title);
+}
+.histudy_show li{
+    font-size: 12px;
+    font-weight: 400;
+}
+

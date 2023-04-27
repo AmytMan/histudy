@@ -1,0 +1,36 @@
+
+.card_background{
+    background: var(--bg-gradient-2);
+    color: var(--color-white);  
+}
+.topfeature_wrapper strong{
+    font-size: 18px;
+}
+.card_background2{
+    background: var(--bg-gradient-3);
+    color: var(--color-white);   
+}
+.topfeature_text-color{
+    color: var(--color-title); 
+
+}
+
+
+.feature-title{
+    background-image: var(--bg-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top_feature_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  @media screen and (max-width:740px){
+    .top_feature_items{
+        flex-direction: column;
+    }
+  }

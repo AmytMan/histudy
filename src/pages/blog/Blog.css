@@ -1,0 +1,26 @@
+.blog_wrapper{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.blog_items {
+    height: 35px;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: var(--color-title);
+}
+
+.blog_content span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog_content img{
+    border-radius: 10px;
+    width: 250px;
+}
+.blog_items:hover{
+    background-color:var(--color-hover); 
+    color: var(--color-primary);  
+}

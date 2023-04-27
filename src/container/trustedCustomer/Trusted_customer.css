@@ -1,0 +1,36 @@
+.customer_wrapper{ 
+    margin-top: 40px;
+    color: var(--color-white);
+    background: var(--gradient-1);  
+}
+
+.trusted_customer_text_section{
+  background-image:  url("../../assets/map.png") ;
+  background-size: cover;
+}
+.trusted_customer_text_section h1{
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 50px;
+}
+.benefit_icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+  @media screen and (max-width:680px){
+    
+    .trusted_customer_text_section h1{
+      font-size: 30px;
+    }
+    .benefit_icons img{
+      width: 30px;
+    }
+     .benefit_icons p{
+      font-size: 12px;
+     }
+  }
+
+

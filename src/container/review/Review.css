@@ -1,0 +1,102 @@
+.review-title{
+  position: relative;
+}
+.text-animi{
+  display: flex ;
+  justify-content: center;
+  align-items: center; 
+}
+.text-animi::after {
+  position: absolute;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  content: "";
+  font-size: 40px;
+  bottom: -3px;
+  animation: change-text 3s linear infinite;
+  animation-fill-mode: forwards;
+  }
+  
+@keyframes change-text {
+  from {
+    content: "Rainbow Themes.";
+    color: #9a4295;
+  }
+  to {
+    content: "Histudy Template.";
+    color: #460bcf;  
+  }  
+}
+  
+
+.scroll_animation_wrapper{
+  display: flex;
+  overflow: hidden;
+}
+.customer-review{
+  flex: 0 0 400px;
+  border-radius: 15px;
+  margin-right: 40px;
+  padding: 0 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #6b7385;
+  text-align: center;
+}
+.customer-review img:first-child{
+  margin-top: 50px;
+}
+.bg_gradient{
+  background-image: linear-gradient(to top right,#4164ec,#ad68d3);
+  color: white !important; 
+}
+.customer-review img , .customer-review span{
+  margin: 20px 0;
+}
+.customer-review p{
+  font-size: 18px;
+}
+
+.move_left_right{
+  animation: moveLeftRight 50s linear infinite;
+}
+.move_right_left{
+  animation: moveRightLeft 60s linear infinite;
+}
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform:translateX(-1300px);
+  }
+}
+@keyframes moveRightLeft{
+  0% {
+    transform: translateX(-1300px);
+  }
+  100%{
+    transform: translateX(10%);
+  }
+}
+.read_more_review_wrapper{
+  position: relative;
+ background: linear-gradient(white, #d5d5d6 90%);
+  
+}
+ 
+  
+ 
+ 
+
+.read_more_review{
+ width: 100%;
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(rgba(25, 25, 25, 0) 10%, #192335 55%);
+}

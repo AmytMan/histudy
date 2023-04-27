@@ -1,0 +1,26 @@
+.image-dis{
+    background: url('../../assets/courses.png') no-repeat top ;
+    width: 500px;
+    height: 500px;
+    color: var(--color-white);  
+}
+.image-dis p{
+    max-width: 50%;
+}
+.dropdown_menu_list{
+    margin-top: 70px;
+}
+.course_Items {
+    line-height: 30px;
+    padding: 5px 10px;
+    color: var(--color-title);
+}
+.dropdown_menu_list h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+.course_Items:hover{
+    background-color: var(--color-hover);
+    color: var(--color-primary);
+}

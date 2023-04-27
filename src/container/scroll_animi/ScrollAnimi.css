@@ -1,0 +1,58 @@
+
+ h6{
+  text-align: center;
+}
+.icons_style{
+  padding: 0px 35px;
+  text-transform: capitalize;
+  background: var(--color-white);
+  color: var(--color-title);
+  box-shadow:var(--shadow-1);
+  height: 65px;
+  line-height: 65px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 40px; 
+}
+
+.icons_style:hover{
+ background-color: var(--color-heading-hover);
+ color: var(--color-white);
+ transition: 1s;
+}
+.scroll_demo_detail{
+  color: var(--color-title);
+}
+
+.rightmoveA{
+ white-space: nowrap;
+animation: move-right 60s linear infinite;
+ }
+
+ @keyframes move-right {
+  from {
+    transform: translateX(calc(200px)); 
+   } 
+  to {
+    transform: translateX(calc(-1600px)); 
+  }
+
+}
+.rightmoveB{
+  white-space: nowrap;
+animation: move-right 50s linear infinite;
+ }
+ .moveleft{
+  white-space: nowrap;
+  animation: move-left 60s linear infinite;
+ }
+ @keyframes move-left {
+  from {
+    transform: translateX(-1600px); /* start position */
+   } 
+  to {
+    transform: translateX(0); /* end position */
+  }
+ } 

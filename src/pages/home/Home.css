@@ -1,0 +1,31 @@
+.dropdown-hover:hover .dropdown-menu {
+  display: block;
+ 
+}
+
+.dropdown-hover a{
+text-decoration: none; 
+}
+.home_items_name{
+  display: none;
+  position: absolute;
+  text-decoration: none;
+  color: var(--color-white);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  white-space: nowrap;
+}
+.home_items_card:hover .home_items_name{
+  display: block; 
+}
+.home_items_card:hover{
+  transform: translateY(-8px);
+}
+.home_items_card{
+  position: relative;
+}
+
+
+
+

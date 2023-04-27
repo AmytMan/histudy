@@ -1,0 +1,7 @@
+.dashboard_content:hover{
+    background-color: var(--color-hover);
+    color: var(--color-primary);
+}
+.dashboard_content{
+    color: var(--color-title);
+}

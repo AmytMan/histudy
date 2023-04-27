@@ -1,0 +1,8 @@
+.courses_mobile_content{
+    background-color: rgb(188, 187, 187);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.courses_mobile_content div{
+    margin: 10px;
+}

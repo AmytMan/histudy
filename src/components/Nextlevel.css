@@ -1,0 +1,50 @@
+
+.purchasenow{
+    background-image: linear-gradient(90deg, #2f57ef, #b966e7);
+    cursor: pointer;
+}
+.front-arrow{
+    display: none;
+}
+.purchasenow:hover{
+    transition: transform 1s ease-in-out;
+    background-image: linear-gradient(to left, #2f57ef, #b966e7);
+}
+.purchasenow:hover .back-arrow{
+    display: none;
+    transition: transform 1s ease-in-out;
+}
+.purchasenow:hover .front-arrow{
+    display: inline-block;
+    transition: transform 1s ease-in-out;
+}
+
+
+
+
+.purchase-animation{
+    border: 1px solid #6b7385;
+    width:fit-content;
+    background: #6b7385;
+    margin: 30px;
+    border-radius: 15px;
+    animation: moveUpDown 5s linear infinite;
+}
+
+@keyframes moveUpDown {
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+    
+}
+@media  screen and (max-width:720px) {
+    .next_img{
+        display: none;
+    }
+}

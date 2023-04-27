@@ -1,0 +1,36 @@
+
+.menu_container {
+    display: flex;
+    background: var(--bg-gradient);
+    border-radius: 10px;
+   margin: 0px 30px 30px 30px;
+   
+}
+.menu_box{
+   
+    color: white;
+    border-right: 1px solid#ffffff1a;  
+    padding: 20px;
+    flex: 1;
+   
+}
+.menu_box:hover{
+    transform:  translate(-1px ,-10px) scale(1.01);
+    background-color: #212529;
+    border-radius: 10px;  
+}
+
+@media only screen and (max-width: 900px) {
+    .menu_container {
+     flex-direction: column;
+      
+     
+    }
+    .menu_box{
+      border-bottom: 1px solid#ffffff1a;
+    }
+    
+  
+    
+  }
+  

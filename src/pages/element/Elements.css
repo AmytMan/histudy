@@ -1,0 +1,27 @@
+.elements_wrapper{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.elements_content_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-image: var(--bg-gradient);
+}
+.elements_item div{
+    margin:20px;
+    padding: 5px;
+    text-align: center;
+    color: var(--color-title);
+}
+.elements_content_footer span{
+    color: white;
+}
+.elements_item div:hover{
+    background-color:var(--color-hover);
+    padding: auto auto; 
+    color: var(--color-primary);  
+}
